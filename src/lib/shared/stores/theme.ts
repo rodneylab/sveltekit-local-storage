@@ -10,3 +10,5 @@ theme.subscribe((value) => {
     window.localStorage.setItem('theme', value);
   }
 });
+
+export { theme as default };
