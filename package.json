@@ -1,6 +1,8 @@
 {
   "name": "sveltekit-local-storage",
   "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "description": "Using Local Storage in SvelteKit: taking the example of setting a site theme, explore how to combine the Local Storage and Svelte Store APIs.",
   "scripts": {
     "dev": "svelte-kit dev --port 3000",
     "build": "svelte-kit build",
@@ -38,6 +40,13 @@
     "vanilla-lazyload": "^17.8.2",
     "vite": "^2.9.11",
     "vite-imagetools": "^4.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodneylab/sveltekit-local-storage"
+  },
+  "bugs": {
+    "url": "https://github.com/rodneylab/sveltekit-local-storage/issues"
   },
   "type": "module"
 }
