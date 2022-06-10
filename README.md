@@ -11,7 +11,7 @@
 
 # sveltekit-local-storage
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/rodneylab/sveltekit-local-storage)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/sveltekit-local-storage)
 
 Demo code for handling tracking the user's preferred site theme using Local Storage and a Svelte store in SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on using local storage with Svelte Kit" href="https://rodneylab.com/using-local-storage-sveltekit/">video on using Local Storage with Svelte stores in SvelteKit</a>. If you have any questions, please drop a comment at the bottom of that page.
 
