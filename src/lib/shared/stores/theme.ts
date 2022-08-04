@@ -7,9 +7,9 @@ const initialValue = browser ? window.localStorage.getItem('theme') ?? defaultVa
 export const theme = writable<string>(initialValue);
 
 theme.subscribe((value) => {
-  if (browser) {
-    window.localStorage.setItem('theme', value);
-  }
+	if (browser) {
+		window.localStorage.setItem('theme', value);
+	}
 });
 
 export { theme as default };
