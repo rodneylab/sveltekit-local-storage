@@ -4,12 +4,11 @@
 	import { winterTheme } from '$lib/styles/themes/winterTheme.css';
 	import { container, content } from './Card.css';
 
-	$: themeIsSummer = $theme === 'summer';
-	$: contentStyle = `${content}  ${themeIsSummer ? summerTheme : winterTheme}`;
+	$: currentTheme = $theme === 'summer' ? summerTheme : winterTheme;
 </script>
 
 <section class={container}>
-	<div class={contentStyle}>
+	<div class="{content} {currentTheme}">
 		<slot />
 	</div>
 </section>

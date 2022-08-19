@@ -11,7 +11,7 @@
 </script>
 
 <!-- svelte-ignore component-name-lowercase -->
-<main class={`${main} ${currentTheme}`}>
+<main class="{main} {currentTheme}">
 	<Card>
 		<h1 class={heading}>SvelteKit Local Storage</h1>
 	</Card>

@@ -11,15 +11,14 @@
 	$: currentTheme = themeIsSummer ? summerTheme : winterTheme;
 	$: buttonText = themeIsSummer ? 'Summer theme' : 'Winter theme';
 	$: buttonAriaLabel = themeIsSummer ? 'Switch to Winter theme' : 'Switch to Summer theme';
-	$: buttonStyle = `${themeButton} ${currentTheme}`;
 </script>
 
-<div class={`${container} ${containerMain} ${currentTheme}`}>
+<div class="{container} {containerMain} {currentTheme}">
 	<!-- svelte-ignore component-name-lowercase -->
 	<header class={header}>
 		<button
 			aria-label={buttonAriaLabel}
-			class={buttonStyle}
+			class="{themeButton} {currentTheme}"
 			on:click={() => (themeIsSummer ? theme.set('winter') : theme.set('summer'))}
 			>{buttonText}</button
 		>
