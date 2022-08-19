@@ -8,6 +8,14 @@ const config = {
 		'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString()),
 	},
 	plugins: [sveltekit(), vanillaExtractPlugin(), imagetools({ force: true })],
+	server: {
+		port: 5173,
+		strictPort: false,
+	},
+	preview: {
+		port: 4173,
+		strictPort: false,
+	},
 	ssr:
 		process.env.NODE_ENV === 'development'
 			? {}
