@@ -4,9 +4,9 @@
 	"license": "BSD-3-Clause",
 	"description": "Using Local Storage in SvelteKit: taking the example of setting a site theme, explore how to combine the Local Storage and Svelte Store APIs.",
 	"scripts": {
-		"dev": "vite dev --port 3000",
+		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview --port 3000",
+		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -24,7 +24,7 @@
 		"@typescript-eslint/parser": "^5.27.1",
 		"@vanilla-extract/css": "^1.7.2",
 		"@vanilla-extract/css-utils": "^0.1.2",
-		"@vanilla-extract/vite-plugin": "3.2.1",
+		"@vanilla-extract/vite-plugin": "3.3.0",
 		"commitlint": "^17.0.3",
 		"eslint": "^8.17.0",
 		"eslint-config-prettier": "^8.5.0",
@@ -39,7 +39,7 @@
 		"tslib": "^2.4.0",
 		"typescript": "^4.7.3",
 		"vanilla-lazyload": "^17.8.2",
-		"vite": "^3.0.4",
+		"vite": "^3.0.8",
 		"vite-imagetools": "^4.0.4"
 	},
 	"repository": {
@@ -51,6 +51,6 @@
 	},
 	"type": "module",
 	"peerDependencies": {
-		"vite": "^3.0.4"
+		"vite": "^3.0.8"
 	}
 }
